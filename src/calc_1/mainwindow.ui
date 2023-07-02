@@ -1,0 +1,2932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>672</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>672</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="calc">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>666</width>
+      <height>507</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>калькулятор</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>334</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>334</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_iks">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>496</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>x</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_AC">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>253</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>AC</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_div">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>496</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>/</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>100</y>
+        <width>646</width>
+        <height>8</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(0, 0, 0);
+	border: 4px solid black;
+}</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>1</y>
+        <width>646</width>
+        <height>8</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(0, 0, 0);
+	border: 4px solid black;
+}</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>415</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>3</x>
+        <y>1</y>
+        <width>8</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(0, 0, 0);
+	border: 4px solid black;
+}</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_equel">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>577</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_plus">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>577</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_sqrt">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>sqrt</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_mul">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>577</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>*</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_mod">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>91</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>mod</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_skob">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>334</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>(</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>334</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_atan">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>atan</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>415</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_log">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>log10</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>415</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_skob_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>415</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cos">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>91</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>cos</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_sin">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>91</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>sin</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_invers">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>108</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>+/-</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_minus">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>577</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tan">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>91</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>tan</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>652</x>
+        <y>1</y>
+        <width>8</width>
+        <height>107</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(0, 0, 0);
+	border: 4px solid black;
+}</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_0">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>496</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>253</x>
+        <y>351</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="result_show">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>647</width>
+        <height>47</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(120, 250, 0);
+	qproperty-alignment: 'AlignVCenter | AlignRight';
+	border: 0px solid black;
+}
+
+background-color : white;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ln">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>ln</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>253</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>253</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_asin">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>asin</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="result_show_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>647</width>
+        <height>53</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>37</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: rgb(120, 250, 0);
+	qproperty-alignment: 'AlignVCenter | AlignRight';
+	border: 0px solid black;
+}
+
+background-color : white;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_toch">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>496</x>
+        <y>270</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>,</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_pow">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>^</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_acos">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>189</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>61</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+														stop: 0 #FF0000, stop: 1 #FF0000);
+}</string>
+      </property>
+      <property name="text">
+       <string>acos</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="oc_x_min">
+      <property name="geometry">
+       <rect>
+        <x>7</x>
+        <y>445</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="stepType">
+       <enum>QAbstractSpinBox::AdaptiveDecimalStepType</enum>
+      </property>
+      <property name="value">
+       <double>-10.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="oc_x_max">
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>445</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="oc_y_min">
+      <property name="geometry">
+       <rect>
+        <x>389</x>
+        <y>445</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>-10.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="oc_y_max">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>445</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="decimals">
+       <number>0</number>
+      </property>
+      <property name="minimum">
+       <double>-1000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>445</y>
+        <width>60</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red;</string>
+      </property>
+      <property name="text">
+       <string>ОСЬ Х</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>499</x>
+        <y>445</y>
+        <width>60</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red;</string>
+      </property>
+      <property name="text">
+       <string>ОСЬ У</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_graph">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>291</x>
+        <y>435</y>
+        <width>90</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>22</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	border: 1px solid white;
+}
+QPushButton:pressed {
+	color: white;
+	background-color: qlineargradient(x1: 0, y1: 0 x: 0, y2: 1,
+														stop: 0 #000000, stop: 1 #000000);
+}</string>
+      </property>
+      <property name="text">
+       <string>graph</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>построение графика</string>
+     </attribute>
+     <widget class="QCustomPlot" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>0</y>
+        <width>636</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCustomPlot
+{
+	ui-&gt;widget-&gt;setStyleSheet(&quot;QWidget {&quot;
+		&quot;background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgb(250, 120, 50),&quot;
+		&quot;stop: 1 rgb(250, 120, 55))}&quot;
+		&quot;border-top: 1px green;&quot;
+		&quot;stop: 0 #FF0000, stop: 1 #FF0000&quot;);
+	graph-&gt;xAxis-&gt;setBasePen(QPen(QColor(&quot;#FF0000&quot;)));
+	graph-&gt;yAxis-&gt;setBasePen(QPen(QColor(&quot;#FF0000&quot;)));
+
+	graph-&gt;xAxis-&gt;setTickPen(QPen(QColor(&quot;#FF0000&quot;)));
+	graph-&gt;yAxis-&gt;setTickPen(QPen(QColor(&quot;#FF0000&quot;)));
+
+	graph-&gt;xAxis-&gt;setTickLabelColor(QPen(QColor(&quot;#FF0000&quot;)));
+	graph-&gt;yAxis-&gt;setTickLabelColor(QPen(QColor(&quot;#FF0000&quot;)));
+
+	graph-&gt;xAxis-&gt;setUpperEnding(QCPLineEnding::esSpikeArrow);
+	graph-&gt;yAxis-&gt;setUpperEnding(QCPLineEnding::esSpikeArrow);
+
+	graph-&gt;xAxis-&gt;setSubTickPen(QPen(QColor(&quot;#FF0000&quot;)));
+	graph-&gt;yAxis-&gt;setSubTickPen(QPen(QColor(&quot;#FF0000&quot;)));
+
+	QLinearGradient plotGradient;
+	plotGradient.setStart(0, 0);
+	plotGradient.setFinalStop(0, 350);
+	plotGradient.setColorArt(0, QColor(250, 120, 55));
+	plotGradient.setColorArt(1, QColor(170, 80, 53));
+	graph_-&gt;axisRect()-&gt;setBackground(plotGradient);
+
+	QLinearGradient axisRectGradient;
+	axisRectGradient.setStart(0, 0);
+	axisRectGradient.setFinalStop(0, 350);
+	axisRectGradient.setColorArt(0, QColor(250, 120, 55));
+	axisRectGradient.setColorArt(1, QColor(170, 80, 50));
+	graph_-setBackground(axisRectGradient);
+
+	setTypeLine();
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>кредитный калькулятор</string>
+     </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>248</x>
+        <y>10</y>
+        <width>170</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red;</string>
+      </property>
+      <property name="text">
+       <string>ВАРИАНТ РАСЧЕТА:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>652</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::WheelFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Ануитетные</string>
+       </attribute>
+       <widget class="QPushButton" name="itog_aut">
+        <property name="geometry">
+         <rect>
+          <x>275</x>
+          <y>325</y>
+          <width>116</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	color: black;
+	border: 3px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: rgb(120, 250, 0);
+	border: 3px solid red;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>РАССЧИТАТЬ</string>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="proc_aut">
+        <property name="geometry">
+         <rect>
+          <x>274</x>
+          <y>170</y>
+          <width>110</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>999.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>388</x>
+          <y>170</y>
+          <width>20</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>243</x>
+          <y>140</y>
+          <width>180</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>ПРОЦЕНТНАЯ СТАВКА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="srok_kred_aut">
+        <property name="geometry">
+         <rect>
+          <x>274</x>
+          <y>110</y>
+          <width>110</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>600.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>388</x>
+          <y>110</y>
+          <width>30</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>МЕС.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>268</x>
+          <y>80</y>
+          <width>130</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>СРОК КРЕДИТА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>472</x>
+          <y>50</y>
+          <width>35</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>РУБ.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>263</x>
+          <y>20</y>
+          <width>140</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>СУММА КРЕДИТА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="sum_mes_aut">
+        <property name="geometry">
+         <rect>
+          <x>61</x>
+          <y>270</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>235</y>
+          <width>60</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>РУБ/МЕС</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>303</x>
+          <y>200</y>
+          <width>60</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>ИТОГО:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="nach_proc_aut">
+        <property name="geometry">
+         <rect>
+          <x>261</x>
+          <y>270</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dolg_aut">
+        <property name="geometry">
+         <rect>
+          <x>461</x>
+          <y>270</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>236</x>
+          <y>235</y>
+          <width>180</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>НАЧИСЛЕННЫЕ ПРОЦЕНТЫ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>461</x>
+          <y>235</y>
+          <width>130</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>ДОЛГ + ПРОЦЕНТЫ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="sum_kred_aut">
+        <property name="geometry">
+         <rect>
+          <x>198</x>
+          <y>50</y>
+          <width>270</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="buttonSymbols">
+         <enum>QAbstractSpinBox::UpDownArrows</enum>
+        </property>
+        <property name="suffix">
+         <string/>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>400000000000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>1000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Дифференцированные</string>
+       </attribute>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>263</x>
+          <y>20</y>
+          <width>140</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>СУММА КРЕДИТА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="sum_kred_dif">
+        <property name="geometry">
+         <rect>
+          <x>198</x>
+          <y>50</y>
+          <width>270</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="buttonSymbols">
+         <enum>QAbstractSpinBox::UpDownArrows</enum>
+        </property>
+        <property name="suffix">
+         <string/>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>400000000000.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>1000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>1.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>472</x>
+          <y>50</y>
+          <width>35</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>РУБ.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>268</x>
+          <y>80</y>
+          <width>130</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>СРОК КРЕДИТА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="srok_kred_dif">
+        <property name="geometry">
+         <rect>
+          <x>274</x>
+          <y>110</y>
+          <width>110</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="minimum">
+         <double>1.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>600.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>388</x>
+          <y>110</y>
+          <width>30</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>МЕС.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>243</x>
+          <y>140</y>
+          <width>180</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>ПРОЦЕНТНАЯ СТАВКА:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QDoubleSpinBox" name="proc_dif">
+        <property name="geometry">
+         <rect>
+          <x>274</x>
+          <y>170</y>
+          <width>110</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);
+color:black;
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>999.000000000000000</double>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>388</x>
+          <y>170</y>
+          <width>20</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>303</x>
+          <y>200</y>
+          <width>60</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:red;</string>
+        </property>
+        <property name="text">
+         <string>ИТОГО:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="sum_mes_dif">
+        <property name="geometry">
+         <rect>
+          <x>51</x>
+          <y>270</y>
+          <width>200</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>121</x>
+          <y>235</y>
+          <width>63</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>РУБ/МЕС</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="itog_dif">
+        <property name="geometry">
+         <rect>
+          <x>275</x>
+          <y>325</y>
+          <width>116</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color: rgb(255, 0, 0);
+	color: black;
+	border: 3px solid white;
+}
+QPushButton:pressed {
+	color: black;
+	background-color: rgb(120, 250, 0);
+	border: 3px solid red;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>РАССЧИТАТЬ</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dolg_dif">
+        <property name="geometry">
+         <rect>
+          <x>451</x>
+          <y>270</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="nach_proc_dif">
+        <property name="geometry">
+         <rect>
+          <x>276</x>
+          <y>270</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(120, 250, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>261</x>
+          <y>235</y>
+          <width>180</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>НАЧИСЛЕННЫЕ ПРОЦЕНТЫ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>461</x>
+          <y>235</y>
+          <width>130</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>ДОЛГ + ПРОЦЕНТЫ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>pushButton_AC</tabstop>
+  <tabstop>pushButton_skob</tabstop>
+  <tabstop>pushButton_mod</tabstop>
+  <tabstop>pushButton_div</tabstop>
+  <tabstop>pushButton_atan</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>pushButton_mul</tabstop>
+  <tabstop>pushButton_tan</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>pushButton_9</tabstop>
+  <tabstop>pushButton_acos</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_minus</tabstop>
+  <tabstop>pushButton_cos</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_asin</tabstop>
+  <tabstop>pushButton_1</tabstop>
+  <tabstop>pushButton_plus</tabstop>
+  <tabstop>pushButton_sin</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton_log</tabstop>
+  <tabstop>pushButton_equel</tabstop>
+  <tabstop>pushButton_ln</tabstop>
+  <tabstop>pushButton_0</tabstop>
+  <tabstop>pushButton_toch</tabstop>
+  <tabstop>pushButton_pow</tabstop>
+  <tabstop>pushButton_skob_2</tabstop>
+  <tabstop>pushButton_iks</tabstop>
+  <tabstop>pushButton_invers</tabstop>
+  <tabstop>calc</tabstop>
+  <tabstop>itog_aut</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>sum_kred_aut</tabstop>
+  <tabstop>srok_kred_aut</tabstop>
+  <tabstop>sum_kred_dif</tabstop>
+  <tabstop>srok_kred_dif</tabstop>
+  <tabstop>proc_dif</tabstop>
+  <tabstop>itog_dif</tabstop>
+  <tabstop>pushButton_sqrt</tabstop>
+  <tabstop>proc_aut</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
